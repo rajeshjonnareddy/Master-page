@@ -69,9 +69,12 @@ h2 {
   font-family: sans-serif;
   /* width: 100vh; */
 }
-#Skills{
-  height:85vh;
+#background {
+  height: 85vh;
 }
-#background{
+#skills {
+  height: 85vh;
+}
+#about {
   height: 85vh;
 }
