@@ -64,6 +64,7 @@
 }
 
 h2 {
+  color: white;
   font-size: 5vh;
   font-family: sans-serif;
   /* width: 100vh; */
@@ -87,9 +88,9 @@ h2 {
 }
 
 .box {
-    width: 300px;
     margin: 5px;
-    text-align: center;     /* will center text in <p>, which is not a flex item */
+    text-align: center;
+    font-size: 100%;   /* will center text in <p>, which is not a flex item */
 }
 
 
