@@ -22,12 +22,14 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar top-nav-collapse">
             <div class="container">
 
-                <a class="navbar-brand" href="index.html" style="font-family: 'Raleway', sans-serif;"><b>Rajesh</b></a>
+                <div>
+                  <a class="navbar-brand" href="index.html" style="font-family: 'Raleway', sans-serif;font-size: xx-large;"><b>Rajesh</b></a>
+                </div>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: x-large;">
                     <ul class="navbar-nav mr-auto smooth-scroll">
                         <li class="nav-item">
                             <a class="nav-link" href="#home">Home</a>
@@ -38,9 +40,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#skills">Skills</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#projects">Skills</a>
-                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#background">Extras</a>
                         </li>
@@ -90,137 +89,133 @@
 
             <!--Section: Best Features-->
             <section id="about" class="text-center">
-              <h1> About Me </h1>
+              <div style="height:100%;">
+                <h1 style="text-decoration:underline"> About Me </h1>
+                  <div id="container"><!-- flex container -->
+
+                    <div class="box" id="bluebox"><!-- flex item -->
+                        <p></p>
+                    </div>
+                  </div>
+              </div>
             </section>
 
             <hr class="my-4">
 
             <section id="skills" class="text-center">
+              <div>
+                <h1 style="text-decoration:underline"> My Skills </h1>
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <i class="fa fa-info-circle fa-4x blue-text"></i>
+                        <h4 class="my-4 font-weight-bold">Information Security</h4>
+                        <p class="grey-text" align="justify">Planning and implementing security measures to protect computer systems, networks and data. keeping myself up-to-date on the
+                          latest intelligence, including hacker's, methodologies, in order to anticipate security breaches.</p>
+                    </div>
 
-              <h1> My Skills </h1>
-              <div class="row">
-                  <div class="col-md-4 mb-5">
-                      <i class="fa fa-info-circle fa-4x blue-text"></i>
-                      <h4 class="my-4 font-weight-bold">Information Security</h4>
-                      <p class="grey-text">This was my dream since from my childhood, I love to travel and want to travel around the whole world. And I know one day I'll....
-          And I also know that to accomplish this I need to work hard. Yeah... I'm on it.</p>
-                  </div>
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-sitemap fa-4x blue-text"></i>
+                        <h4 class="my-4 font-weight-bold">Network Security</h4>
+                        <p class="grey-text" align="justify">Taking physical and software preventative measures to protect the underlying networking
+                           infrastructure from unauthorized access, by creating a secure platform for users.</p>
+                    </div>
 
-                  <div class="col-md-4 mb-1">
-                      <i class="fa fa-sitemap fa-4x blue-text"></i>
-                      <h4 class="my-4 font-weight-bold">Network Security</h4>
-                      <p class="grey-text">I'm kind of shy. And I love to spent my time with myself.
-          Making new friends is not my thing, I'm too much choosy in making friends.</p>
-                  </div>
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-server fa-4x blue-text"></i>
+                        <h4 class="my-4 font-weight-bold">Penetration Testing</h4>
+                        <p class="grey-text" align="justify">Testing a computer system, network or web application to find security vulnerabilities that an attacker could exploit, using Manual and Automated tools and techniques</p>
+                    </div>
+                </div>
 
-                  <div class="col-md-4 mb-1">
-                      <i class="fa fa-server fa-4x blue-text"></i>
-                      <h4 class="my-4 font-weight-bold">Penetration Testing</h4>
-                      <p class="grey-text">Sometimes I think of, to be an Astraunot and sometimes circuit racer. I'm day dreamer in which I dream of
-          SPY mission and I'm the secret Agent of the mission.</p>
-                  </div>
-              </div>
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <i class="fa fa-cloud fa-4x blue-text"></i>
+                        <h4 class="my-4 font-weight-bold">Cloud Tech</h4>
+                        <p class="grey-text" align="justify">Maintaining the delivery of computing services like servers, storage, databases, networking, software, analytics, intelligence and more over the Internet.</p>
+                    </div>
 
-              <div class="row">
-                  <div class="col-md-4 mb-5">
-                      <i class="fa fa-cloud fa-4x blue-text"></i>
-                      <h4 class="my-4 font-weight-bold">Cloud Computing</h4>
-                      <p class="grey-text">This was my dream since from my childhood, I love to travel and want to travel around the whole world. And I know one day I'll....
-          And I also know that to accomplish this I need to work hard. Yeah... I'm on it.</p>
-                  </div>
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-bar-chart fa-4x blue-text"></i>
+                        <h4 class="my-4 font-weight-bold">SIEM Tech.</h4>
+                        <p class="grey-text" align="justify">Real-time analysis of security alerts generated by applications and network hardware, to track records of the activities within their IT environment.</p>
+                    </div>
 
-                  <div class="col-md-4 mb-1">
-                      <i class="fa fa-bar-chart fa-4x blue-text"></i>
-                      <h4 class="my-4 font-weight-bold">SIEM Tech.</h4>
-                      <p class="grey-text">I'm kind of shy. And I love to spent my time with myself.
-          Making new friends is not my thing, I'm too much choosy in making friends.</p>
-                  </div>
-
-                  <div class="col-md-4 mb-1">
-                      <i class="fa fa-terminal fa-4x blue-text"></i>
-                      <h4 class="my-4 font-weight-bold">Programming</h4>
-                      <p class="grey-text">Sometimes I think of, to be an Astraunot and sometimes circuit racer. I'm day dreamer in which I dream of
-          SPY mission and I'm the secret Agent of the mission.</p>
-                  </div>
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-terminal fa-4x blue-text"></i>
+                        <h4 class="my-4 font-weight-bold">Programming</h4>
+                        <p class="grey-text" align="justify">Web development using JavaScript, HTML and advanced Bash scripting and python Programming. and with strong knowledge of basic level programming.</p>
+                    </div>
+                </div>
               </div>
             </section>
 
             <hr class="my-4">
             <section id="background" class="text-center">
-              <h1>Background</h1>
-            </section>
-            <!-- <section id="Skill" class="text-center">
-
-                <section class="section pb-3 text-center">
-					<h1 class="section-heading h1" style="padding-bottom: 1.5rem!important; padding-top: 2.5rem!important;"> Skills </h1>
-					<div class="row">
-                    <div class="col-lg-4 col-md-12 mb-r">
-                      <div class="card testimonial-card">
-                          <div class="card-up blue lighten-2">
+              <div>
+                <h1 style="text-decoration:underline">Background</h1>
+                <div class="container">
+                  <ul class="timeline">
+                      <li>
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-hand-left"></i></div>
+                        <div class="timeline-panel">
+                          <div class="timeline-heading">
+                            <h4 class="timeline-title">Bachleor of Science</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> March 2016</small></p>
                           </div>
-
-
-                          <div class="avatar"><img src="img/Hemaal.jpg" alt="Hemaal Taras Hansda" class="rounded-circle img-responsive">
+                          <div class="timeline-body">
+                            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+                            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.</p>
                           </div>
-
-                          <div class="card-body">
-                              <h4 class="card-title mt-1">Information Security</h4>
-                              <p><i class="fa fa-quote-left"></i> kjsdhf jdhf akdjh akdjfhalwiueajfh dhfuieh fasjdh aiufhdsjkfh aweuifh dsjhf aweiuaef odf jdhfawieufa fvdj jsdkhfkjdshf kjadhfakdjshfaweiufhiuadfd vjdhfuiaehvnkadjvb uhfksadjf hakdsjfhalkdfj ajdhf aksdf djhfaeuhksdjfh akufeh ajsdfhaiefuh aksdjf uiewf akdjfaiwuehfjdsfafjhf dsfhkjasdfh .</p>
-                          </div>
-
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 mb-r">
-                        <div class="card testimonial-card">
-                            <div class="card-up blue lighten-2">
-                            </div>
-
-
-                            <div class="avatar"><img src="img/Hemaal.jpg" alt="Hemaal Taras Hansda" class="rounded-circle img-responsive">
-                            </div>
-
-                            <div class="card-body">
-                                <h4 class="card-title mt-1"> Penetration Testing. </h4>
-                                <hr>
-                                <p><i class="fa fa-quote-left"></i> kjsdhf jdhf akdjh akdjfhalwiueajfh dhfuieh fasjdh aiufhdsjkfh aweuifh dsjhf aweiuaef odf jdhfawieufa fvdj.</p>
-                            </div>
-
                         </div>
-
-                    </div>
-
-                    <div class="col-lg-4 col-md-12 mb-r">
-                      <div class="card testimonial-card">
-
-                          <div class="card-up blue lighten-2">
+                      </li>
+                      <li class="timeline-inverted">
+                        <div class="timeline-badge warning"><i class="glyphicon glyphicon-chevron-right"></i></div>
+                        <div class="timeline-panel">
+                          <div class="timeline-heading">
+                            <h4 class="timeline-title">IRIZ ID Technologies</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Dec 2016</small></p>
                           </div>
-
-
-                          <div class="avatar"><img src="img/Hemaal.jpg" alt="Hemaal Taras Hansda" class="rounded-circle img-responsive">
+                          <div class="timeline-body">
+                            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+                            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.</p>
                           </div>
-
-                          <div class="card-body">
-
-                              <h4 class="card-title mt-1"> Cloud Computing. </h4>
-                              <hr>
-
-                              <p><i class="fa fa-quote-left"></i> kjsdhf jdhf akdjh akdjfhalwiueajfh dhfuieh fasjdh aiufhdsjkfh aweuifh dsjhf aweiuaef odf jdhfawieufa fvdj.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="timeline-badge danger"><i class="glyphicon glyphicon-eye-open"></i></div>
+                        <div class="timeline-panel">
+                          <div class="timeline-heading">
+                            <h4 class="timeline-title">Master of Science</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> May 2018</small></p>
                           </div>
-
-                      </div>
-                    </div>
-                  </div>
-				</section>
-
-            </section> -->
-            <!--Section: Best Features-->
+                          <div class="timeline-body">
+                            <p align="justify">Add more progress events and milestones to the left or right side of the timeline.</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="timeline-inverted">
+                        <div class="timeline-badge default"><i class="glyphicon glyphicon-home"></i></div>
+                        <div class="timeline-panel">
+                          <div class="timeline-heading">
+                            <h4 class="timeline-title">Byte Security</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Jan 2019</small></p>
+                          </div>
+                          <div class="timeline-body">
+                            <p align="justify">Add more progress events and milestones to the left or right side of the timeline.</p>
+                          </div>
+                        </div>
+                      </li>
+                  </ul>
+              </div>
+              </div>
+            </section>
             <hr class="my-5">
 
             <!--Section: Contact-->
             <section id="contact" class="text-center">
-
+              <div>
                 <!-- Heading -->
-                <h1>Want to Say Something!</h1>
+                <h1 style="text-decoration:underline">Want to Say Something!</h1>
 
                 <!--Grid row-->
                 <div class="row zoomIn animated">
@@ -266,7 +261,7 @@
 
                 </div>
                 <!--Grid row-->
-
+              </div>
             </section>
             <!--Section: Contact-->
 
